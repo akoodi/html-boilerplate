@@ -1,7 +1,7 @@
 {
     "name": "html-js-sass-boilerplate",
     "version": "0.0.1",
-    "description": "Simple and quite plain HTML + Js + Sass biolerplate with Webpack Dev Server.",
+    "description": "Simple and quite plain HTML + Js + Sass boilerplate with Webpack Dev Server.",
     "main": "index.js",
     "scripts": {
         "build": "webpack --config webpack.production.js",
@@ -26,7 +26,7 @@
     "private": true,
     "repository": {
         "type": "git",
-        "url": ""
+        "url": "https://github.com/akoodi/html-js-sass-boilerplate"
     },
     "license": "MIT-0",
     "devDependencies": {
