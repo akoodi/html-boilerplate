@@ -1,0 +1,44 @@
+html, body{
+    height:100%;
+    padding: 0;
+    margin: 0;
+}
+body {
+    background-color: $page-bg-color;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.quote{
+    align-self: center;
+    display: inline-block;
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (max-width: 1199px) {
+}
+
+// Large devices (desktops, 992px and up)
+@media (max-width: 991px) {
+}
+
+// Medium devices (tablets, 768px and up)
+@media (max-width: 767px) {
+}
+
+// Small devices (landscape phones, 576px and down)
+@media (max-width: 575px) {
+}
+
+// Small devices (landscape phones, 576px and down)
+@media (max-width: 440px) {
+}
+
+/*
+ *  dark theme bg
+ */
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: $page-bg-color;
+    }
+}

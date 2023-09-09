@@ -1,0 +1,44 @@
+{
+    "name": "html-js-sass-boilerplate",
+    "version": "0.0.1",
+    "description": "Simple and quite plain HTML + Js + Sass biolerplate with Webpack Dev Server.",
+    "main": "index.js",
+    "scripts": {
+        "build": "webpack --config webpack.production.js",
+        "build-patch": "npm version patch && webpack --config webpack.production.js",
+        "build-minor": "npm version minor && webpack --config webpack.production.js",
+        "build-major": "npm version major && webpack --config webpack.production.js",
+        "dev": "webpack-dev-server --hot --config webpack.development.js",
+        "start": "webpack-dev-server --hot --open --config webpack.development.js"
+    },
+    "keywords": [
+        "html",
+        "js",
+        "sass",
+        "webpack",
+        "webpack-dev-server",
+        "boilerplate"
+    ],
+    "author": {
+        "name": "A-KOODI",
+        "url": "https://akoodi.fi"
+    },
+    "private": true,
+    "repository": {
+        "type": "git",
+        "url": ""
+    },
+    "license": "MIT-0",
+    "devDependencies": {
+        "css-loader": "^6.8.1",
+        "html-webpack-plugin": "^5.5.3",
+        "mini-css-extract-plugin": "^2.7.6",
+        "node-sass": "^9.0.0",
+        "sass": "^1.66.1",
+        "sass-loader": "^13.3.2",
+        "style-loader": "^3.3.3",
+        "webpack": "^5.88.2",
+        "webpack-cli": "^5.1.4",
+        "webpack-dev-server": "^4.15.1"
+    }
+}
