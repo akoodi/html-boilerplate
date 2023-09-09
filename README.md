@@ -2,7 +2,7 @@
 
 | Command | Description |
 | --- | --- |
-| `npm run dev start` | **Start webpack-dev-server** and **open browser** (default port: 6871) |
+| `npm run start` | **Start webpack-dev-server** and **open browser** (default port: 6871) |
 | `npm run dev` | **Start webpack-dev-server** (default port: 6871) |
 | `npm run build` | **Build distribution files** |
 | `npm run build-patch` | **Build distribution files** and **update package.json patch-version (0.0.1)** |
