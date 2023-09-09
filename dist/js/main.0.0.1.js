@@ -1,0 +1,2 @@
+(()=>{"use strict";document.addEventListener("DOMContentLoaded",(()=>{let e=document.getElementById("main-page");if(e){let t=document.createElement("a");t.href="page1.html",t.innerHTML="next page &raquo;",e.append(t)}}))})();
+//# sourceMappingURL=main.0.0.1.js.map
